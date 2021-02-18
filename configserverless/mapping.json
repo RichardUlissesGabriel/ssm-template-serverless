@@ -1,0 +1,7 @@
+{
+    "template": {
+        "compiled": "cloudformation-template-update-stack.json",
+        "core": "cloudformation-template-create-stack.json"
+    },
+    "stack": "$service"
+}

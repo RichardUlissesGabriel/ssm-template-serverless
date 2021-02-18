@@ -1,0 +1,17 @@
+{
+  "name": "ssm",
+  "version": "1.0.0",
+  "description": "Template para a criação de um micro serviço",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "SL_DEBUG=* serverless deploy -v && SL_DEBUG=* node ./scripts/deploy.js"
+  },
+  "author": "Richard Ulisses Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-aws-resource-names": "^0.1.1",
+    "aws-sdk": "^2.799.0",
+    "js-yaml": "^3.14.0",
+    "serverless": "1.61.0"
+  }
+}
